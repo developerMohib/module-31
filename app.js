@@ -68,10 +68,21 @@ console.log('result 3 :', result_3);
 const myFriends = ['shakib', 'tamim', 'musfiq', 'masrafi', 'reyad'];
 function nameLength(allName) {
     for (const name of allName) {
-        const Length = name.length;
-        // console.log('name :', name, 'and length :', length);
+        let lennnth = name.length;
+        console.log('name :', name, 'and length :',lennnth) ;
     }
-    return length;
+    return  allName.length;
 }
+
+
+
 const nameFuntion = nameLength(myFriends);
 console.log('name length :', nameFuntion);
+
+const nameLengthShort = myFriends.map(fri => fri.length);
+console.log("my friends lentgh", nameLengthShort);
+
+// first charecter checker 
+
+const firstChar = myFriends.map( fri => fri[0] );
+console.log('first char : ', firstChar)
