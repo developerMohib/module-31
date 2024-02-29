@@ -1,2 +1,2 @@
-	1. Map Function 
-	2.
+	1. Map method
+	2.filter , find , forEach 
