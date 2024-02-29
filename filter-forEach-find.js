@@ -14,9 +14,13 @@ console.log(resultFilterUper, 'result of filtering');
 
 const resultFilterOdd = numberForEach.filter( p => p % 2 === 1);
 console.log(resultFilterOdd, 'result of filtering');
+document.write( '<br>', resultFilterOdd, ' result of filtering');
 
 const frndsFilterName = ['shakib', 'tamim', 'mohib', 'tomy', 'jerry'];
 const oddResultFilterName = frndsFilterName.filter( frnds => frnds.length % 2 === 1 );
 console.log(oddResultFilterName, 'odd name');
+document.write( '<br>', oddResultFilterName, ' odd name');
+
 const evenResultFilterName = frndsFilterName.filter( frnds => frnds.length % 2 !== 1 );
 console.log(evenResultFilterName , 'even Name');
+document.write( '<br>', evenResultFilterName , ' even Name');
