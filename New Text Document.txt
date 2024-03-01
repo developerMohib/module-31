@@ -1,2 +1,3 @@
 	1. Map method
-	2.filter , find , forEach 
+	2. filter , find , forEach 
+	3. class constructor 

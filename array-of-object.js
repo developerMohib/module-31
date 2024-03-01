@@ -25,3 +25,16 @@ const productsForEach = products.forEach( pd => console.log(' products for each 
 const productsFilter = products.filter( pd => pd.price > 40000);
 const productsFilterArray = productsFilter.map( parameter => parameter.price)
 console.log(' product filter : ', productsFilterArray);
+
+
+
+// bid word filter 
+const bigWordArray = [ 'big', 'tig', 'small', 'tall',];
+const bigWordFilter = bigWordArray.filter(big => big === 'big');
+console.log(bigWordFilter);
+
+
+// reduce method 
+
+const productsReduce = products.reduce( (acum, initial) => acum + initial.price, 0);
+console.log(productsReduce , 'Reduce');
