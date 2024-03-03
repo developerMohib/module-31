@@ -5,6 +5,8 @@ class person{
         this.personHeight = height;
         this.personProffession = proffession;
     } 
+    // optional 
+    
     present() {
         return 'I have a ' + this.perseonName;
       }
